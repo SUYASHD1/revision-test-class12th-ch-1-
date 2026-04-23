@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SUYASH DIXIT - Q&A Presenter</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css">
+    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js"></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <div class="header-content">
+            <h1>SUYASH DIXIT</h1>
+            <h2 id="topic-name">Class 12th Physics: Chapter 1 (Electric Charges and Fields)</h2>
+        </div>
+    </header>
+
+    <main>
+        <div id="question-container" class="glass-card">
+            <div id="q-counter" class="q-counter"></div>
+            <div id="question-content">
+                <!-- Question content will be injected here -->
+            </div>
+            <div id="options-container">
+                <!-- Options will be injected here -->
+            </div>
+        </div>
+
+        <div class="controls">
+            <button id="prev-btn" class="btn secondary">Previous</button>
+            <button id="shuffle-btn" class="btn highlight">Shuffle</button>
+            <button id="next-btn" class="btn primary">Next</button>
+        </div>
+    </main>
+
+    <footer>
+        <p>SUYASH DIXIT all rights reserved</p>
+    </footer>
+
+    <script src="database.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
